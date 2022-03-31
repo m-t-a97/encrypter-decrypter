@@ -93,7 +93,7 @@ async function readSecretKeyInput(message: string): Promise<string> {
     message,
   });
 
-  await checkIfLengthOfKeyIsValid(secretKey);
+  // await checkIfLengthOfKeyIsValid(secretKey);
   console.log(chalk.white(`Your secret key is: ${chalk.green(secretKey)}`));
 
   return secretKey;
